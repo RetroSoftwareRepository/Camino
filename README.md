@@ -1,5 +1,5 @@
 # <img src="https://retrosoftwarerepository.github.io/caminobrowser/CaminoLogo2.PNG"> 
-Mozilla for Power Macintosh
+<h1>Mozilla for Power Macintosh</h1>
 
 A fork of Firefox to maintain support for the Power Mac, supporting Mac OS X 10.4, 10.5 and **_PowerPC_** 10.6, with special features and optimizations for PowerPC processors and AltiVec. _This project is not affiliated with nor supported by Mozilla in any way, and is not an official build._ **PowerPC forever!**
 
