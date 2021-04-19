@@ -14,10 +14,10 @@ pref("app.update.download.backgroundInterval", 60);
 pref("app.update.promptWaitTime", 86400);
 // URL user can browse to manually if for some reason all update installation
 // attempts fail.
-pref("app.update.url.manual", "https://www.retrosoftwarerepository.github.io/caminobrowser/");
+pref("app.update.url.manual", " ");
 // A default value for the "More information about this update" link
 // supplied in the "An update is available" page of the update wizard. 
-pref("app.update.url.details", "https://www.retrosoftwarerepository.github.io/caminobrowser/");
+pref("app.update.url.details", " ");
 
 // The number of days a binary is permitted to be old
 // without checking for an update.  This assumes that
@@ -37,5 +37,5 @@ pref("browser.search.param.yahoo-fr-ja", "mozff");
 pref("devtools.selfxss.count", 0);
 
 // After bug 876037
-pref("app.releaseNotesURL", "http://www.tenfourfox.com/relnotes/%VERSION%/%LOCALE%/");
+pref("app.releaseNotesURL", " ");
 pref("app.vendorURL", "https://www.retrosoftwarerepository.github.io/caminobrowser/");
