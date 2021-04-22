@@ -1,10 +1,10 @@
-# Contributing to TenFourFox (and fixing problems)
+# Contributing to Lightspeed (and fixing problems)
 
-TenFourFox needs contributors to maintain its code, since we are a fork of Firefox and disconnected from current ESRs for technical reasons. Here's what we need and don't need.
+Lightspeed needs contributors to maintain its code, since we are a fork of Firefox and disconnected from current ESRs for technical reasons. Here's what we need and don't need.
 
-## We don't need bug reports or feature requests
+## We don't need feature requests
 
-At least, we don't need them _here_. If you are an end-user and not an official contributor, **post requests for end user support to [our official Tenderapp Support area](http://tenfourfox.tenderapp.com). The Github issues page is a worklist, not a support forum.**
+The browser simply is bloated and heavy as it is.
 
 One of our helpful _volunteer_ staff will help triage your issue and determine if it should be on the worklist on your behalf. Don't do this yourself: most of the time people are wrong about this. Seriously.
 
