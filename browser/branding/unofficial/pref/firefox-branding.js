@@ -2,9 +2,9 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-pref("startup.homepage_override_url", "#");
-pref("startup.homepage_welcome_url", "#");
-pref("startup.homepage_welcome_url.additional", "#");
+pref("startup.homepage_override_url", "#"); //add homepage override URL here
+pref("startup.homepage_welcome_url", "https://retrosoftwarerepository.github.io/lightspeedbrowser/welcome"); //add welcome URL here
+pref("startup.homepage_welcome_url.additional", "#"); 
 // The time interval between checks for a new version (in seconds)
 pref("app.update.interval", 86400); // 24 hours
 // The time interval between the downloading of mar file chunks in the
@@ -14,7 +14,7 @@ pref("app.update.download.backgroundInterval", 60);
 pref("app.update.promptWaitTime", 86400);
 // URL user can browse to manually if for some reason all update installation
 // attempts fail.
-pref("app.update.url.manual", "#");
+pref("app.update.url.manual", "https://github.com/RetroSoftwareRepository/Lightspeed/releases"); //add update URL here
 // A default value for the "More information about this update" link
 // supplied in the "An update is available" page of the update wizard. 
 pref("app.update.url.details", "#");
@@ -38,4 +38,4 @@ pref("devtools.selfxss.count", 0);
 
 // After bug 876037
 pref("app.releaseNotesURL", " ");
-pref("app.vendorURL", "https://www.retrosoftwarerepository.github.io/caminobrowser/");
+pref("app.vendorURL", "https://www.retrosoftwarerepository.github.io/lightspeedbrowser/");
