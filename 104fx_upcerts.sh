@@ -1,7 +1,7 @@
 #!/bin/csh -f
 
 if (! -e security/manager/ssl/nsSTSPreloadList.inc) then
-	echo 'not in the tenfourfox folder, aborting'
+	echo 'not in the Lightspeed folder, aborting'
 endif
 
 # certdata.txt is parsed by security/nss/lib/ckfw/builtins/certdata.perl
