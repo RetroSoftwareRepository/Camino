@@ -1,6 +1,6 @@
 #!/bin/csh -f
 
-# from AuroraFox, modified for TenFourFox
+# from AuroraFox, modified for Lightspeed (and previously TenFourFox)
 
 set verbose
 set ppath=$1
