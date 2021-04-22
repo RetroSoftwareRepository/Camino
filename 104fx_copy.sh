@@ -1,6 +1,6 @@
 #!/bin/csh -f
 
-# from AuroraFox, modified for TenFourFox
+# from AuroraFox, modified for Lightspeed (and previously TenFourFox)
 
 set ppath="$1"
 if ("$ppath" == "/" || "$ppath" == "") then
@@ -12,7 +12,7 @@ if (-e "$ppath/Contents/MacOS/firefox") then
 endif
 
 set verbose
-cp -RL obj-ff-dbg/dist/TenFourFox.app "$ppath" || cp -RL obj-ff-dbg/dist/TenFourFoxDebug.app "$ppath" || exit
+cp -RL obj-ff-dbg/dist/Lightspeed.app "$ppath" || cp -RL obj-ff-dbg/dist/LightspeedDebug.app "$ppath" || exit
 cd $ppath/Contents/MacOS || exit
 
 # determine which libgcc got linked (default to /opt/local/lib/gcc48)
