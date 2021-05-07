@@ -300,8 +300,10 @@ gfxPlatformMac::IsFontFormatSupported(nsIURI *aFontURI, uint32_t aFormatFlags)
                     HTTP_OR_HTTPS_SUBDIR("fonts.gstatic.com", "/ea/notosansjapanese/v6/NotoSansJP-");
                     HTTP_OR_HTTPS_SUBDIR("fonts.gstatic.com", "/s/notosansjp/v14/");
 
+                    HTTP_OR_HTTPS_SUBDIR("www.icloud.com", "/fonts/SFUIText-");
                     HTTP_OR_HTTPS_SUBDIR("www.icloud.com", "/fonts/current/fonts/SFNSText-");
                     HTTP_OR_HTTPS_SUBDIR("www.icloud.com", "/fonts/current/fonts/SFNSDisplay-");
+
 
                     HTTP_OR_HTTPS_SUBDIR("typeface.nyt.com", "/fonts/nyt-cheltenham-");
                     HTTP_OR_HTTPS_SUBDIR("typeface.nytimes.com", "/fonts/nyt-cheltenham-");
@@ -329,8 +331,9 @@ gfxPlatformMac::IsFontFormatSupported(nsIURI *aFontURI, uint32_t aFormatFlags)
 
                     HTTP_OR_HTTPS_SUBDIR("www.vetmed.fu-berlin.de", "/assets/default2/NexusSansWeb-P");
 
-                    HTTP_OR_HTTPS_SUBDIR("cdn.theatlantic.com", "/assets/static/a/frontend/dist/theatlantic/fonts/garamond/AGaramondPro");
-                    HTTP_OR_HTTPS_SUBDIR("cdn.theatlantic.com", "/assets/static/a/frontend/dist/theatlantic/fonts/atlantic-serif/Atlantic-Serif");
+                    HTTP_OR_HTTPS_SUBDIR("www.theatlantic.com", "/packages/fonts/garamond/AGaramondPro");
+                    HTTP_OR_HTTPS_SUBDIR("www.theatlantic.com", "/packages/fonts/goldwyn/goldwyn");
+                    HTTP_OR_HTTPS_SUBDIR("www.theatlantic.com", "/packages/fonts/atlantic/Atlantic-Serif");
 
                     HTTP_OR_HTTPS_SUBDIR("www.kulturstiftung-des-bundes.de", "/typo3conf/ext/base_ksb/Resources/Public/");
 
